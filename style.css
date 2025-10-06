@@ -102,9 +102,33 @@ html, body{
 .card2 img ,
 .card3 img ,
 .card4 img {
+    /* padding-top:10px ; */
     width: 250px;
     height: 300px;
     object-fit:cover; 
-    border-radius:10px;
+    border-radius:25px;
 }
 
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    line-height: 1.5;
+}
+.info>h3{
+    color: #021023;
+    font-size: 50px;
+}
+
+.price-info{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.purchase{
+    
+}
